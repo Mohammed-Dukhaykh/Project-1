@@ -1,0 +1,217 @@
+/* body and page style */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, sans-serif;
+    
+}
+body {
+    background :linear-gradient(rgba(102, 100, 100, 0.5), rgba(100, 100, 100, 0.5)), url("https://images.pexels.com/photos/62693/pexels-photo-62693.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 250vh;
+    background-attachment: fixed;
+    letter-spacing: 3px;
+    
+}
+/* ul style */
+ul {
+    list-style: none;
+}
+/* Navbar Style */
+.navbar {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo {
+    width: 180px;
+}
+.nav-ul1 {
+    display: flex;
+    gap: 40px;
+    text-transform: uppercase;
+
+}
+.nav-ul1 li:hover {
+    border-bottom: 1px solid black;
+}
+.nav-ul1 a {
+    text-decoration: none;
+    color: rgb(70, 69, 69) ;
+    font-weight:400;  
+}
+.social {
+    display: flex;
+}
+.social li {
+    margin:6px;
+}
+.social img {
+    width: 27px;
+    
+}
+/* img Title */
+.img-title  {
+    display: flex;
+    justify-content: center;
+}
+/* form students */
+.form-students {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 23px;
+    margin-top: 39px;
+    align-items: center;
+}
+.label-1 {
+    font-size: 33px;
+    color: rgb(70, 69, 69);
+} 
+.input-students {
+   padding: 14px 60px;
+   border: none;
+   border-radius: 7px;
+   font-size: 28px;
+   color:rgb(70, 69, 69) ;
+   
+}
+.btn-select {
+   border: none;
+   padding: 12px 34px;
+   letter-spacing: 3px;
+   font-size: 17px;
+   color: rgb(70, 69, 69);
+   cursor: pointer;
+}
+/* students names*/
+.students-names {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
+   min-height: 400px;
+   
+}
+.students-names h2 {
+    font-size: 45px;
+    margin-bottom: 40px;
+    color: rgb(70, 69, 69);
+}
+.spnClass {
+    color:rgb(70, 69, 69);
+    font-size: 34px;
+    margin-bottom: 20px
+}
+.result {
+    margin-bottom: 50px;
+}
+/* button remove */
+.button-remove {
+    border: none;
+    padding: 12px 34px;
+    letter-spacing: 3px;
+    font-size: 17px;
+    color: rgb(70, 69, 69);
+    cursor: pointer;
+
+}
+.button-remove:hover {
+    background-color: black;
+    color: white;
+}
+/* absent button */
+.absClass {
+    border: none;
+    padding: 12px 34px;
+    letter-spacing: 3px;
+    font-size: 17px;
+    color: rgb(70, 69, 69);
+    cursor: pointer; 
+}
+.absClass:hover {
+    background-color: rgb(184, 27, 27);
+    color: white;
+}
+/* present button */
+.preClass {
+    border: none;
+    padding: 12px 34px;
+    letter-spacing: 3px;
+    font-size: 17px;
+    color: rgb(70, 69, 69);
+    cursor: pointer; 
+}
+.preClass:hover {
+    background-color: rgb(8, 153, 8);
+    color: white;
+}
+/* late button */
+.lateClass {
+    border: none;
+    padding: 12px 34px;
+    letter-spacing: 3px;
+    font-size: 17px;
+    color: rgb(70, 69, 69);
+    cursor: pointer; 
+}
+.lateClass:hover {
+    background-color: rgb(255, 153, 0);
+    color: white;
+}
+
+/* Div students */
+
+.div-students {
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 20px;
+    width: 100%; 
+     margin-right: 40px;
+    border-bottom: 1px solid black;
+
+}
+/* ul students */
+
+.ul-students {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.title-ul {
+    font-size: 30px;
+    margin-bottom: 40px;
+    border-bottom: 3px solid black;
+}
+/* ul present */
+
+.ul-present {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ul absent */
+
+.ul-absent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* ul late */
+
+.ul-late {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.all-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+
